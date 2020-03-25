@@ -3,7 +3,7 @@ Vim configuration
 
 Commencez par supprimer votre ~/.vimrc et videz votre ~/.vim
 
-cloner le repository dans ~/.vim/
+cloner le repository https://github.com/Neorelien/Vim.git dans ~/.vim/
 
 dans votre shell tapez la commande 
 
