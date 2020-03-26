@@ -3,19 +3,27 @@
 Vim configuration
 
 
-Commencez par supprimer votre ~/.vimrc et videz votre ~/.vim
+Start to delete your ~/.vimrc and clean your ~/.vim
 
-cloner le repository https://github.com/Neorelien/Vim.git dans ~/.vim/
+clone the repository https://github.com/Neorelien/Vim.git in ~/.vim/
 
-dans votre shell tapez la commande 
+Enter this command in your shell 
 
 --> git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
---> apt install exuberant-ctags OU telechargez "ctags"
+--> apt install 'exuberant-ctags' OR if your not on linux download "ctags"
 
-Ouvrez ~/.vim/vimrc avec vim (appuyez sur entrée pour passer le message d'erreur)
+Open ~/.vim/vimrc with vim (skip the error message)
 
-Une fois dans vim tapez la commande 
+Enter this command in your VIM 
 
 --> :PluginInstall
 
-Laissez les plugin s'installer :)
+Let the plugins install :)
+
+
+COMMAND IN VIM
+
+ctrl + e --> open the NERDTree
+ctrl + o --> open the tagbar
+
+
