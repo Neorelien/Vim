@@ -24,6 +24,7 @@ Plugin 'tpope/vim-sleuth'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-fugitive' "plugin git
 Plugin 'vim-scripts/nextval'
+Plugin 'nvie/vim-flake8'
 
 								"Fin des plug-in
 call vundle#end()            
@@ -98,3 +99,13 @@ call NERDTreeHighlightFile('coffee', 'Red', 'none', 'red', '#151515')
 call NERDTreeHighlightFile('js', 'Red', 'none', '#ffa500', '#151515')
 call NERDTreeHighlightFile('php', 'Magenta', 'none', '#ff00ff', '#151515')
 
+" Syntastic
+function Py2()
+  let g:syntastic_python_python_exec = '/usr/local/bin/python2.7'
+endfunction
+
+function Py3()
+  let g:syntastic_python_python_exec = '/usr/local/bin/python3'
+endfunction
+
+call Py3()   " default to Py3 because I try to use it when possible
