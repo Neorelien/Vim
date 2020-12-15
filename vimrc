@@ -55,6 +55,10 @@ set mouse=a
 set t_Co=256
 set showcmd
 set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set noexpandtab
+set nocompatible
 
 "Nerdtree
 map <C-e> :NERDTreeToggle<CR>
