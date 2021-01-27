@@ -59,6 +59,8 @@ set tabstop=4
 set softtabstop=4
 set noexpandtab
 set nocompatible
+set colorcolumn=81
+set cursorline
 
 "Nerdtree
 map <C-e> :NERDTreeToggle<CR>
