@@ -5,7 +5,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'  
 						"Ici sont déclaré tous les plug-in
-
+Plugin 'tomlion/vim-solidity'
 Plugin 'drewtempelmeyer/palenight.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'vim-airline/vim-airline'
